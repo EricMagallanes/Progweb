@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cdffee;
+}
+
+header {
+    background-color: hwb(286 85% 0%);
+    color: #7a7979;
+    padding: 10px 0;
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    border: 0;
+    text-align: center;
+    text-decoration:underline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+
+nav a {
+    color: #7a7979;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #cdffee;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'DM Serif Display', serif;
+    color: #7a7979;
+}
+
+.nosotros-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#service {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    background-color: #cdffee;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'DM Serif Display', serif;
+    color: #7a7979;
+}
+
+.service-caja {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 90px;
+}
+
+#portafolio img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+footer {
+    background-color:hwb(286 85% 0%);
+    color: #7a7979;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+ 
+}
+
+.social-media img{
+    width: 100%;
+    height: 100%;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.location iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
