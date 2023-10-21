@@ -148,9 +148,6 @@ footer {
     p {
     font-size: 15px;
     }
-    /* Estilo para el Header */
-    header {
-    }
     /* Titulo Principal Nombre de la empresa */
     h1{
         font-size: 40px;
@@ -184,9 +181,9 @@ footer {
         height: 25vmin;
     }
     /* Estilo para la seccion sobre carousel del Portafolio*/
-.carousel-inner img{
+    .carousel-inner img{
     height: 350px;
-}
+    }
     /* Estilos para las redes sociales */
     .social-media img{
         width: 15vmin;
