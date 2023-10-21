@@ -29,7 +29,7 @@ header {
 /* Titulo Principal Nombre de la empresa */
 h1{
     font-family: 'DM Serif Display', serif;
-    font-size: 60px;
+    font-size: 100px;
     border: 0;
     margin: 5px;
     text-align: center;
@@ -94,8 +94,8 @@ nav a {
 }
 /* Estilos para las imagenes en la seccion sobre nuestros servicios */
 .service-image img {
-    width: 50vmin;
-    height: 35vmin;
+    width: 60vmin;
+    height: 40vmin;
 }
 /* Estilo para la seccion sobre carousel del Portafolio*/
 .carousel-inner img{
@@ -132,6 +132,7 @@ footer {
     border: 0;
 }
 
+
 /* Estilos que aplican responsive x360 */
 
 @media (max-width: 360px ){
@@ -146,7 +147,7 @@ footer {
     }
     /* Estilos generales para todos los parrafos */
     p {
-    font-size: 15px;
+        font-size: 15px;
     }
     /* Titulo Principal Nombre de la empresa */
     h1{
@@ -165,7 +166,6 @@ footer {
     nav li:hover{
         font-size: 20px;
     }
-    }
     /* Estilos para las imagenes en la seccion sobre nosotros */
     .nosotros-image img {
         width: 30vmin;
@@ -182,7 +182,7 @@ footer {
     }
     /* Estilo para la seccion sobre carousel del Portafolio*/
     .carousel-inner img{
-    height: 350px;
+        height: 250px;
     }
     /* Estilos para las redes sociales */
     .social-media img{
