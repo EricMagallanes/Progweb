@@ -49,7 +49,9 @@ nav li {
     font-family: 'Comfortaa', cursive;
     font-family: 'DM Serif Display', serif;
 }
-
+nav li:hover{
+    font-size: 20px;
+}
 nav a {
     color: #7a7979;
     text-decoration: none;
@@ -67,18 +69,17 @@ nav a {
 }
 /* Estilos para las imagenes en la seccion sobre nosotros */
 .nosotros-image img {
-    width: 100%;
-    height: 100%;
-    max-width: 100px;
-    max-height: 200px;
-    display: block;
-    margin: 0 auto;
+    width: 40vmin;
+    height: 50vmin;
+}
+.nosotros-image:hover img {
+    width: 50vmin;
+    height: 60vmin;
 }
 /* Estilo para la seccion sobre nuestros servicios */
 #service {
     flex: 1;
     text-align: center;
-    /* margin: 10px; */
     background-color: #cdffee;
     font-family: 'Comfortaa', cursive;
     font-family: 'DM Serif Display', serif;
@@ -93,16 +94,12 @@ nav a {
 }
 /* Estilos para las imagenes en la seccion sobre nuestros servicios */
 .service-image img {
-    width: 100%;
-    height: 100%;
-    max-width: 150px;
-    max-height: 90px;
+    width: 50vmin;
+    height: 35vmin;
 }
-/* Estilo para la seccion sobre Portafolio*/
-#portafolio img{
-    width: 100%;
-    height: 100%;
-    border: 0;
+/* Estilo para la seccion sobre carousel del Portafolio*/
+.carousel-inner img{
+    height: 700px;
 }
 /* Estilo del Footer */
 footer {
@@ -125,8 +122,8 @@ footer {
 .social-media img{
     width: 100%;
     height: 100%;
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 20%;
+    max-height: 20%;
 }
 /* Estilos para la ubicacion */
 .location iframe {
@@ -135,34 +132,9 @@ footer {
     border: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estilos que aplican responsive x340 */
+/* Estilos que aplican responsive x360 */
 
 @media (max-width: 360px ){
-    body {
-        /* font-family: Arial, sans-serif;
-         margin: 0;
-        padding: 0; 
-        background-color: hsl(9, 82%, 41%); */
-    }
     /* Estilos generales para todas los section */
     section {
         padding: 0 0px;
@@ -170,131 +142,60 @@ footer {
     /* Estilos generales para todos los subtitulos */
     h2 {
         font-size: 30px;
-        border: 0;
         margin: 20px;
-        text-align: center;
     }
     /* Estilos generales para todos los parrafos */
     p {
-    /* margin: 0px 0px;   */
     font-size: 15px;
     }
     /* Estilo para el Header */
     header {
-        /* background-color: hwb(286 85% 0%);
-        color: #7a7979; */
-        /* padding: 10px 0; */
     }
     /* Titulo Principal Nombre de la empresa */
     h1{
-        /* font-family: 'DM Serif Display', serif; */
         font-size: 40px;
-        /* border: 0;
-        margin: 5px;
-        text-align: center;
-        text-decoration:underline; */
     }
     /* Estilos para el Navbar */
     nav ul {
         display: flex;
         justify-content: center;
         flex-wrap:wrap;
-        /* list-style-type: none;
-        margin: 0;
-        padding: 0;
-        text-align: center; */
     }
     
     nav li {
-        /* display: flex;
-        justify-content: center;*/
         margin-right: 15px;
-        /* font-family: 'Comfortaa', cursive;
-        font-family: 'DM Serif Display', serif; */
     }
-    
-    nav a {
-        color: #7a7979;
-        text-decoration: none;
+    nav li:hover{
+        font-size: 20px;
     }
-    /* Estilo para la seccion sobre nosotros */
-    #nosotros{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background-color: #cdffee;
-        text-align: center;
-        font-family: 'Comfortaa', cursive;
-        font-family: 'DM Serif Display', serif;
-        color: #7a7979;
     }
     /* Estilos para las imagenes en la seccion sobre nosotros */
     .nosotros-image img {
-        width: 100%;
-        height: 100%;
-        max-width: 100px;
-        max-height: 200px;
-        display: block;
-        margin: 0 auto;
+        width: 30vmin;
+        height: 40vmin;
     }
-    /* Estilo para la seccion sobre nuestros servicios */
-    #service {
-        flex: 1;
-        text-align: center;
-        /* margin: 10px; */
-        background-color: #cdffee;
-        font-family: 'Comfortaa', cursive;
-        font-family: 'DM Serif Display', serif;
-        color: #7a7979;
-    }
-    
-    .service-caja {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: space-around;
+    .nosotros-image:hover img {
+        width: 40vmin;
+        height: 50vmin;
     }
     /* Estilos para las imagenes en la seccion sobre nuestros servicios */
     .service-image img {
-        width: 100%;
-        height: 100%;
-        max-width: 150px;
-        max-height: 90px;
+        width: 50vmin;
+        height: 25vmin;
     }
-    /* Estilo para la seccion sobre Portafolio*/
-    #portafolio img{
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-    /* Estilo del Footer */
-    footer {
-        background-color:hwb(286 85% 0%);
-        color: #7a7979;
-        padding: 1px 0;
-        text-align: center;
-        font-family: 'Comfortaa', cursive;
-        font-family: 'DM Serif Display', serif;
-    }
+    /* Estilo para la seccion sobre carousel del Portafolio*/
+.carousel-inner img{
+    height: 350px;
+}
     /* Estilos para las redes sociales */
-    .social-media {
-        margin-bottom: 10px;
-    }
-    
-    .social-media a {
-        margin: 0 10px;
-    }
-    
     .social-media img{
-        width: 100%;
-        height: 100%;
-        max-width: 5%;
-        max-height: 5%;
+        width: 15vmin;
+        height: 15vmin;
     }
     /* Estilos para la ubicacion */
     .location iframe {
         width: 100%;
-        height: 300px;
+        height: 150px;
         border: 0;
     }
 }
